@@ -8,9 +8,14 @@
   },
   "dependencies": {
     "actionhero": "17.0.2",
-    "ws": "latest",
+    "emailjs": "^1.0.9",
     "fakeredis": "latest",
-    "ioredis": "latest"
+    "ioredis": "latest",
+    "mailchimp-api-v3": "^1.7.0",
+    "mailcomposer": "^4.0.2",
+    "mailgun-js": "^0.11.2",
+    "nodemailer": "^4.0.1",
+    "ws": "latest"
   },
   "devDependencies": {
     "cross-env": "latest",

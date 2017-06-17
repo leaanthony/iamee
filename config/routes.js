@@ -10,9 +10,12 @@ exports['default'] = {
         {
           path: '/register',
           action: 'register'
-        } // (POST) /api/login/123
+        },
+        {
+          path: '/invite',
+          action: 'invite'
+        }
       ]
-
     }
   }
 }
