@@ -27,7 +27,7 @@ class ExperiencePage extends Component {
   cardStyle(color, border) {
     return (
       {
-      'backgroundColor': color,
+      'background': color,
       'borderColor': border
       }
     )
@@ -58,11 +58,11 @@ class ExperiencePage extends Component {
           <Experiences
             onclick={this.toggle}
             header="Relaxed"
-            style={this.cardStyle('#30CDCA', '#30CDCA')}
+            style={this.cardStyle(' linear-gradient(to bottom, rgba(28,187,182,1) 0%, rgba(34,222,223,1) 100%)', '#30CDCA')}
           />
 
 
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className="modalRelaxed transparent">
+        <Modal id="content" isOpen={this.state.modal} toggle={this.toggle} className="modalRelaxed transparent">
             <ModalBody>
               <Card
                 onClick={this.props.onclick}
