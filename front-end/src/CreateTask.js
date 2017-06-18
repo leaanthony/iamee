@@ -22,7 +22,6 @@ class ExperiencePage extends Component {
     }
 
     this.clickedTrue = this.clickedTrue.bind(this)
-    this.getStyles = this.getStyles.bind(this)
     this.addNewActivity = this.addNewActivity.bind(this)
   }
 
@@ -72,7 +71,7 @@ class ExperiencePage extends Component {
 
           <div className="pills">
             {this.state.activities.map((activity, i) =>
-              <Badge id={i} onClick = {(i) => this.clickedTrue(i)} style={this.getStyles(i)} pill>
+              <Badge id={i} onClick = {() => this.clickedTrue(i)} style={this.getStyles(i)} pill>
                 <p>{activity}</p>
               </Badge>
             )}
