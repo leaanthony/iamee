@@ -1,7 +1,7 @@
 'use strict'
 
 var api_key = 'key-45b2b7a36c929e38315d362ff1f3baad';
-var domain = 'sandboxb74cf13c305e462ea437bd8fbe124476.mailgun.org';
+var domain = 'iamee.leaanthony.com';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var mailcomposer = require('mailcomposer');
 
@@ -9,10 +9,10 @@ var mail = mailcomposer({
   from: 'iAmee <iamee@leaanthony.com>',
   subject: 'An invitation',
   body: '',
-  html: '<div style="text-align: center"><img src="https://iamee.leaanthony.com/static/media/logo.466138d5.png"></img><h1>You are invited to participate in an activity!</h1><h3>Click <a href="https://iamee.leaanthony.com">here</a> to participate!</h3></div>'
+  html: '<div style="text-align: center"><h3>You are invited to participate in an activity! Please click the logo to accept.</h2><a href="https://iamee.leaanthony.com"><img src="https://iamee.leaanthony.com/static/media/logo.466138d5.png" style="width:75%"></img></a></div>'
 });
 
-function sendEmail(email, name, next) {
+function sendEmail(email, next) {
 
   mail.build(function(mailBuildError, message) {
 
@@ -40,12 +40,11 @@ exports.action = {
 
   inputs: {
 	email: { required: true },
-	name: { required: true },
   },
 
   run: function (api, data, next) {
     let error = null
     // your logic here
-    return sendEmail(data.params.email, data.params.name, next);
+    return sendEmail(data.params.email, next);
   }
 }
