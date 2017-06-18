@@ -6,10 +6,10 @@ var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var mailcomposer = require('mailcomposer');
 
 var mail = mailcomposer({
-  from: 'iAmee <devwellbeing@gmail.com>',
-subject: 'An invitation',
-  body: 'Test email text',
-  html: '<b> Test email text </b>'
+  from: 'iAmee <iamee@leaanthony.com>',
+  subject: 'An invitation',
+  body: '',
+  html: '<div style="text-align: center"><img src="https://iamee.leaanthony.com/static/media/logo.466138d5.png"></img><h1>You are invited to participate in an activity!</h1><h3>Click <a href="https://iamee.leaanthony.com">here</a> to participate!</h3></div>'
 });
 
 function sendEmail(email, name, next) {
