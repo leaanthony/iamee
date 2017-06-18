@@ -1,0 +1,57 @@
+.icon {
+  width: 20%;
+  position: relative;
+  padding-top: 10px;
+}
+
+.icon svg {
+  height: 20px;
+  width: auto;
+  margin: auto;
+  color: white;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-width-home {
+  width: 100%;
+  margin-left: 4px;
+}
+
+.full-width-notification {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.full-width-create {
+  width: 100%;
+  margin-left: 6px;
+}
+
+.full-width-buddies {
+  width: 100%;
+  margin-left: 8px;
+}
+
+.icon p {
+  font-size: 0.7em;
+  color: white;
+}
+
+.bottomNav {
+   background-color: #30A0AF;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 60px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   position: fixed;
+   bottom: 0;
+}

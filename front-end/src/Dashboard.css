@@ -1,0 +1,43 @@
+.spacer-small{
+  margin-bottom: 20px;
+}
+
+.yogaCircle {
+  margin-top: 40px !important;
+}
+
+.moreCircle {
+  margin-top: 20px !important;
+}
+
+.cookingCircle {
+  margin-top: -10px !important;
+}
+
+.pointsLogo {
+  margin-left: 20px;
+}
+
+.boostLogo {
+  margin: 0px 0px 0px 190px;
+}
+
+.button-orange {
+  background-color: #FF9400 !important;
+  border-color: #FF9400 !important;
+}
+
+.modal-content {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.orangeFontTitle {
+  color: #FF9400 !important;
+  margin-top: 30px;
+}
+
+.blackTextFont {
+  color: black !important;
+  margin-top: 45px;
+}

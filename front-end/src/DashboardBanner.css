@@ -1,0 +1,9 @@
+.dashboardRelaxedBanner {
+  height: 40px !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #3ECBCB;
+  color: white;
+}

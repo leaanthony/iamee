@@ -1,0 +1,33 @@
+.navbarComponent {
+   background: url("./images/BG_top_nav.jpg") no-repeat top center;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+.spacer {
+  margin-bottom: 40px;
+}
+
+.navbarComponent {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.arrow-left svg {
+  height: 25px;
+  width: auto;
+  margin-top: 26px;
+  opacity: 0.8;
+}
+
+.brandImage {
+  height: 35px;
+  width: auto;
+  margin-top: 20px;
+  display: block;
+}

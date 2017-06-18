@@ -1,0 +1,45 @@
+.carousel{
+  width: 80%;
+}
+
+.logo-title{
+  height: auto;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.homepage-content{
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+.homepage-background{
+  background: url('./images/BG_carousel.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  overflow: hidden;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  color: #fff;
+}
+
+.slick-dots li.slick-active button:before{
+  color: #fff;
+}
+
+.fixed-button{
+  position: fixed;
+  bottom: 12%;
+  left: 50% ;
+  margin-left: -62px;
+}
+
+.slick-track{
+  margin-bottom: 150px;
+}
