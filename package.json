@@ -28,7 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "fullinstall": "npm install && cd functions && npm install"
   },
   "homepage": "https://iamee-eec5c.firebaseapp.com"
 }
